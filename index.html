@@ -1,0 +1,2818 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Aikon Labs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/media.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+	<script src="assets/js/jquery-2.1.1.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/script.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper"> 
+
+<!-- SideBar Section Start Here -->
+	<div class="main_sidebar clearfix">
+		<section class="sidebar clearfix">
+			<ul class="side-menu clearfix">
+				<li>
+					<div class="column_wrappper">
+						<div class="add_column clearfix">
+						<span><span class="icon"><i class="fa fa-angle-up"></i></span> <span class="col-text blue">Add new column</span></span>
+						</div>
+						<ul>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+									<i class="fa fa-check-square-o blue_l"><span>Boolean</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-calendar purple"><span>Date</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="pink">0.5</i><span>Decimal</span>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="orange">123</i><span>Integer</span>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-search blue_l"><span>Lookup</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-text-width green"><span>String</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="column_wrappper">
+						<div class="add_column clearfix">
+						<span><span class="icon"><i class="fa fa-angle-up"></i></span> <span class="col-text blue">Add new column</span></span>
+						</div>
+						<ul>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+									<i class="fa fa-text-width green"><span>Full Name<sup class="red">*</sup></span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-search blue_l"><span>Account</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-search blue_l"><span>Address Type</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-calendar purple"><span>Birth Date</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-text-width green"><span>Business Phone</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-search blue_l"><span>City</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+									<i class="fa fa-check-square-o blue_l"><span>Confirmed</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-search blue_l"><span>Country</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-search blue_l"><span>Created By</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-calendar purple"><span>Created On</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="orange">123</i><span>Data entry compliance</span>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="column_box clearfix">
+									<div class="column_text">
+										<i class="fa fa-search blue_l"><span>Department</span></i>
+									</div>
+									<div class="column_icon">
+										<i class="fa fa-arrows"></i>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</div>
+<!-- SideBar Section End Here -->
+
+<!-- Header Section Start Here -->
+<div class="header clearfix">
+	<div class="header_text clearfix">
+			<a href="#"><span>Contacts: Page</span></a>
+			<div class="contact_btn clearfix">
+				<button type="button" class="btn btn-success">save</button>
+				<button type="button" class="btn btn-default blue">cancel</button>
+			</div>
+		</div>		
+        <ul class="nav nav-tabs">
+			<li><i class="fa fa-angle-left"></i></li>
+            <li class="active"><a data-toggle="tab" href="#section">section</a></li>
+            <li><a data-toggle="tab" href="#page">page</a></li>
+            <li><a data-toggle="tab" href="#business">business rules</a></li>
+            <li><a data-toggle="tab" href="#cases">cases</a></li>
+			<li><i class="fa fa-angle-right"></i></li>
+        </ul>
+</div>
+<!-- Header Section End Here -->
+
+<!-- Body Section Start Here -->
+<section class="content_wrapper clearfix">
+    <div class="row clearfix">
+        <div class="tab-content">
+            <div id="section" class="tab-pane fade in active">
+                <div class="row clearfix">
+					<div class="col-xs-12 col-sm-5 col-md-3">
+						<div class="time_box clearfix">
+							<ul>
+								<li><span>PhotoTimeZoneContainer</span></i></li>
+								<li><i class="fa fa-text-width green"></i><input type="text" placeholder="Full Name *"/></li>
+								<li><i class="fa fa-text-width green"></i><input type="text" placeholder="Full job title"/></li>
+								<li><i class="fa fa-text-width green"></i><input type="number" placeholder="Mobile phone"/></li>
+								<li><i class="fa fa-text-width green"></i><input type="number" placeholder="Business phone"/></li>
+								<li><i class="fa fa-text-width green"></i><input type="email" placeholder="Email"/></li>
+							</ul>
+						</div>
+						<div class="time_box clearfix">
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+						</div>
+						<div class="time_box clearfix">
+							<div class="account_wrapper">
+								<span class="icon"><i class="fa fa-chain"></i></span><span> AccountProfile</span>
+							</div>
+							<div class="account_box">
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-7 col-md-9">
+						<div class="tabicons clearfix">
+							<div class="pointer"><span></span></div>
+							<div class="pointer1"><span></span></div>
+							<div class="pointer grey"><span></span></div>
+							<div class="tabicon_box">
+								<div class="border"></div>
+								<ul>
+									<li><i class="fa fa-phone green"></i></li>
+									<li><i class="fa fa-envelope pink"></i></li>
+									<li><i class="fa fa-comment blue_d"></i></li>
+									<li><i class="fa fa-flag bl"></i></li>
+									<li><i class="fa fa-life-bouy pur"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="employee_tab clearfix">
+							<ul class="nav nav-tabs">
+								<li><i class="fa fa-angle-left"></i></li>
+								<li class="active"><a data-toggle="tab" href="#contact">contact info</a></li>
+								<li><a data-toggle="tab" href="#current">current employement</a></li>
+								<li><a data-toggle="tab" href="#maintanence">maintanence</a></li>
+								<li><a data-toggle="tab" href="#history">history</a></li>
+								<li><a data-toggle="tab" href="#achievements">achievements and notes</a></li>
+								<li><i class="fa fa-plus blue"></i> <i class="fa fa-pencil"></i><i class="fa fa-times"></i></li>
+								<li><i class="fa fa-angle-right"></i></li>
+							</ul>
+							<div class="tab-content">
+								<div id="contact" class="column_wrappper tab-pane fade in active">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-12 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="current" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="maintanence" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="history" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="achievements" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div id="page" class="tab-pane fade">
+                <div class="row clearfix">
+					<div class="col-sm-3 col-md-3">
+						<div class="time_box clearfix">
+							<ul>
+								<li><span>PhotoTimeZoneContainer</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Full Name<sup class="red">*</sup></span></li>
+								<li><i class="fa fa-text-width green"></i><span>Full job title</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Mobile phone</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Business phone</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Email</span></li>
+							</ul>
+						</div>
+						<div class="time_box clearfix">
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+						</div>
+						<div class="time_box clearfix">
+							<div class="account_wrapper">
+								<span class="icon"><i class="fa fa-chain"></i></span><span> AccountProfile</span>
+							</div>
+							<div class="account_box">
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-9 col-md-9">
+						<div class="tabicons clearfix">
+							<div class="pointer"><span></span></div>
+							<div class="pointer1"><span></span></div>
+							<div class="pointer grey"><span></span></div>
+							<div class="tabicon_box">
+								<div class="border"></div>
+								<ul>
+									<li><i class="fa fa-phone green"></i></li>
+									<li><i class="fa fa-envelope pink"></i></li>
+									<li><i class="fa fa-comment blue_d"></i></li>
+									<li><i class="fa fa-flag bl"></i></li>
+									<li><i class="fa fa-life-bouy pur"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="employee_tab clearfix">
+							<ul class="nav nav-tabs">
+								<li><i class="fa fa-angle-left"></i></li>
+								<li class="active"><a data-toggle="tab" href="#contact1" aria-expanded="true">contact info</a></li>
+								<li class=""><a data-toggle="tab" href="#current1" aria-expanded="false">current employement</a></li>
+								<li class=""><a data-toggle="tab" href="#maintanence1" aria-expanded="false">maintanence</a></li>
+								<li class=""><a data-toggle="tab" href="#history1" aria-expanded="false">history</a></li>
+								<li class=""><a data-toggle="tab" href="#achievements1" aria-expanded="false">achievements and notes</a></li>
+								<li><i class="fa fa-plus blue"></i> <i class="fa fa-pencil"></i><i class="fa fa-times"></i></li>
+								<li><i class="fa fa-angle-right"></i></li>
+							</ul>
+							<div class="tab-content">
+								<div id="contact1" class="column_wrappper tab-pane fade active in">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="current1" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="maintanence1" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="history1" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="achievements1" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div id="business" class="tab-pane fade">
+                <div class="row clearfix">
+					<div class="col-sm-3 col-md-3">
+						<div class="time_box clearfix">
+							<ul>
+								<li><span>PhotoTimeZoneContainer</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Full Name<sup class="red">*</sup></span></li>
+								<li><i class="fa fa-text-width green"></i><span>Full job title</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Mobile phone</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Business phone</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Email</span></li>
+							</ul>
+						</div>
+						<div class="time_box clearfix">
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+						</div>
+						<div class="time_box clearfix">
+							<div class="account_wrapper">
+								<span class="icon"><i class="fa fa-chain"></i></span><span> AccountProfile</span>
+							</div>
+							<div class="account_box">
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-9 col-md-9">
+						<div class="tabicons clearfix">
+							<div class="pointer"><span></span></div>
+							<div class="pointer1"><span></span></div>
+							<div class="pointer grey"><span></span></div>
+							<div class="tabicon_box">
+								<div class="border"></div>
+								<ul>
+									<li><i class="fa fa-phone green"></i></li>
+									<li><i class="fa fa-envelope pink"></i></li>
+									<li><i class="fa fa-comment blue_d"></i></li>
+									<li><i class="fa fa-flag bl"></i></li>
+									<li><i class="fa fa-life-bouy pur"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="employee_tab clearfix">
+							<ul class="nav nav-tabs">
+								<li><i class="fa fa-angle-left"></i></li>
+								<li class="active"><a data-toggle="tab" href="#contact2" aria-expanded="true">contact info</a></li>
+								<li class=""><a data-toggle="tab" href="#current2" aria-expanded="false">current employement</a></li>
+								<li class=""><a data-toggle="tab" href="#maintanence2" aria-expanded="false">maintanence</a></li>
+								<li class=""><a data-toggle="tab" href="#history2" aria-expanded="false">history</a></li>
+								<li class=""><a data-toggle="tab" href="#achievements2" aria-expanded="false">achievements and notes</a></li>
+								<li><i class="fa fa-plus blue"></i> <i class="fa fa-pencil"></i><i class="fa fa-times"></i></li>
+								<li><i class="fa fa-angle-right"></i></li>
+							</ul>
+							<div class="tab-content">
+								<div id="contact2" class="column_wrappper tab-pane fade active in">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="current2" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="maintanence2" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="history2" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="achievements2" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+			<div id="cases" class="tab-pane fade">
+                <div class="row clearfix">
+					<div class="col-sm-3 col-md-3">
+						<div class="time_box clearfix">
+							<ul>
+								<li><span>PhotoTimeZoneContainer</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Full Name<sup class="red">*</sup></span></li>
+								<li><i class="fa fa-text-width green"></i><span>Full job title</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Mobile phone</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Business phone</span></li>
+								<li><i class="fa fa-text-width green"></i><span>Email</span></li>
+							</ul>
+						</div>
+						<div class="time_box clearfix">
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+							<div class="time-col clearfix"></div>
+						</div>
+						<div class="time_box clearfix">
+							<div class="account_wrapper">
+								<span class="icon"><i class="fa fa-chain"></i></span><span> AccountProfile</span>
+							</div>
+							<div class="account_box">
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+								<div class="acnt_box clearfix">
+									<div class="lightbox"></div>
+									<div class="darkbox"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-9 col-md-9">
+						<div class="tabicons clearfix">
+							<div class="pointer"><span></span></div>
+							<div class="pointer1"><span></span></div>
+							<div class="pointer grey"><span></span></div>
+							<div class="tabicon_box">
+								<div class="border"></div>
+								<ul>
+									<li><i class="fa fa-phone green"></i></li>
+									<li><i class="fa fa-envelope pink"></i></li>
+									<li><i class="fa fa-comment blue_d"></i></li>
+									<li><i class="fa fa-flag bl"></i></li>
+									<li><i class="fa fa-life-bouy pur"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="employee_tab clearfix">
+							<ul class="nav nav-tabs">
+								<li><i class="fa fa-angle-left"></i></li>
+								<li class="active"><a data-toggle="tab" href="#contact3" aria-expanded="true">contact info</a></li>
+								<li class=""><a data-toggle="tab" href="#current3" aria-expanded="false">current employement</a></li>
+								<li class=""><a data-toggle="tab" href="#maintanence3" aria-expanded="false">maintanence</a></li>
+								<li class=""><a data-toggle="tab" href="#history3" aria-expanded="false">history</a></li>
+								<li class=""><a data-toggle="tab" href="#achievements3" aria-expanded="false">achievements and notes</a></li>
+								<li><i class="fa fa-plus blue"></i> <i class="fa fa-pencil"></i><i class="fa fa-times"></i></li>
+								<li><i class="fa fa-angle-right"></i></li>
+							</ul>
+							<div class="tab-content">
+								<div id="contact3" class="column_wrappper tab-pane fade active in">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="current3" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="maintanence3" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="history3" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div id="achievements3" class="column_wrappper tab-pane fade">
+									<div class="row clearfix">
+									<div class="add_column clearfix">
+										<span><span class="icon"><i class="fa fa-angle-up"></i></span></span>
+									</div>
+									</div>
+									<form class="tab_form">
+										<div class="row clearfix">
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Type">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Owner">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Title">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Gender">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form_div">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 pad">
+												<div class="form-group">
+													<span><i class="fa fa-search blue_l"></i></span>
+													<input type="text" class="form-control" placeholder="Preferred language">
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 pad">
+												<div class="form_div" id="form_div2">
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+													<div class="form_box clearfix"></div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<label class="custcon">Detail: Contact communication options
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact addresses
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Noteworthy events of contact
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+												<label class="custcon">Detail: Contact relationships
+												   <input type="checkbox" checked="checked">
+												   <span class="checkmark"></span>
+												</label>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12">
+												<button type="button">new fields group</button>
+												<button type="button">new detail</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Body Section End Here -->
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,603 @@
+@media only screen and (max-width: 1800px){
+.header .contact_btn button{
+	font-size:21px;
+}
+.header .nav-tabs > li, .column_wrappper .add_column .col-text, .sidebar .column_box .column_text .fa, .sidebar .column_box .column_icon .fa{
+	font-size:21px;
+}
+ .sidebar .column_box .column_text span{
+	 font-size:19px;
+	 padding-left:5px;
+ }
+.orange, .pink{
+	font-size:19px;
+}
+.column_wrappper .add_column .icon{
+	width:23px;
+	height:23px;
+}
+.main_sidebar{
+	width:400px;
+	margin-top:150px;
+}
+.header .nav-tabs{
+	margin-left:365px;
+}
+.content_wrapper{
+	margin-left:400px;
+	margin-top:-25px;
+}
+.content_wrapper .time_box ul li{
+	font-size:15px;
+	padding:10px;
+}
+.time_box .time-col{
+	height:50px;
+}
+.time_box .account_wrapper .icon{
+	width:40px;
+	height:40px;
+}
+.time_box .account_wrapper .fa{
+	font-size:21px;
+}
+.time_box .account_wrapper span{
+	font-size:16px;
+	padding-left:10px;
+	line-height:38px;
+}
+.time_box .account_box{
+	margin-left:50px;
+}
+.time_box .acnt_box .lightbox{
+	width:150px;
+}
+.time_box .acnt_box .darkbox{
+	width:185px;
+}
+.time_box .acnt_box{
+	margin:10px 0;
+}
+.pointer, .pointer1{
+	height:32px;
+}
+.pointer:before, .pointer1:before{
+	right:-10px;
+	border-left: 10px solid #8acc6c;
+    border-top: 13px solid transparent;
+    border-bottom: 19px solid transparent;
+}
+.pointer:after, .pointer1:after{	
+    border-top: 10px solid transparent;
+}
+.pointer1:before, .grey:before{
+	border-left: 10px solid #d7d8db;
+}
+.tabicon_box ul li .fa{
+	font-size:24px;
+}
+.employee_tab .nav-tabs > li{
+	font-size:14px;
+}
+.employee_tab .nav-tabs > li .fa{
+	font-size:21px;
+}
+.employee_tab .nav-tabs > li{
+	margin-bottom:-7px;
+}
+.employee_tab .tab_form .form-control{
+	font-size:19px;
+	padding:25px 35px;
+}
+.employee_tab .tab_form span, .employee_tab .tab_form .custcon{
+	font-size:21px;
+}
+.employee_tab .tab_form button{
+	font-size:19px;
+	padding:12px;
+}
+}
+@media only screen and (max-width: 1600px){
+.header .header_text {
+    padding: 15px 25px 0px 25px;
+}
+.header .header_text a{
+	font-size:32px;
+}
+.header .contact_btn button{
+	font-size:16px;
+}
+.main_sidebar {
+    width: 375px;
+    margin-top: 115px;
+}
+.content_wrapper {
+    margin-left: 375px;
+	margin-top:-60px;
+}
+.header .nav-tabs > li, .column_wrappper .add_column .col-text, .sidebar .column_box .column_text .fa, .sidebar .column_box .column_icon .fa {
+    font-size: 18px;
+}
+.column_wrappper .add_column .icon {
+    width: 20px;
+    height: 20px;
+}
+.column_wrappper .add_column .icon .fa{
+	font-size:18px;
+}
+.column_wrappper .add_column .col-text{
+	padding-left:10px;
+}
+.sidebar .column_wrappper li{
+	padding:10px;
+}
+.orange, .pink , .sidebar .column_box .column_text span{
+    font-size: 17px;
+}
+.column_wrappper .add_column{
+	margin:20px 0;
+}
+.header .nav-tabs{
+	padding-bottom:15px;
+	margin-left:340px;
+}
+.content_wrapper .time_box ul li{
+	font-size:12px;
+}
+.content_wrapper .time_box, .tabicons{
+	padding:15px;
+}
+.time_box .account_wrapper .icon {
+    width: 35px;
+    height: 35px;
+}
+.time_box .account_wrapper .fa {
+    font-size: 19px;
+}
+.time_box .account_wrapper span {
+    font-size: 14px;
+    padding-left: 8px;
+    line-height: 34px;
+}
+.time_box .account_box {
+    margin-left: 45px;
+}
+.time_box .acnt_box .lightbox {
+    width: 125px;
+	height:6px;
+}
+.time_box .acnt_box .darkbox {
+    width: 150px;
+	height:6px;
+}
+.time_box .acnt_box .lightbox, .time_box .acnt_box .darkbox{
+	margin:5px 0;
+}
+.pointer, .pointer1 {
+    height: 28px;
+}
+.pointer:before, .pointer1:before {
+    right: -9px;
+    border-left: 9px solid #8acc6c;
+    border-top: 10px solid transparent;
+    border-bottom: 17px solid transparent;
+}
+.pointer:after, .pointer1:after {
+    border-top: 8px solid transparent;
+}
+.pointer1:before, .grey:before {
+    border-left: 9px solid #d7d8db;
+}
+.pointer span, .pointer1 span{
+	height:5px;
+}
+.tabicon_box .border{
+	height:8px;
+}
+.pointer, .pointer1 {
+    height: 28px;
+}
+.tabicon_box ul li .fa {
+    font-size: 21px;
+}
+.employee_tab .nav-tabs > li{
+	padding:0 3px;
+	font-size:12px;
+}
+.employee_tab .nav-tabs > li .fa {
+    font-size: 16px;
+	line-height:44px;
+}
+.employee_tab .nav-tabs{
+	margin-bottom:50px;
+}
+.employee_tab .tab_form span{
+    font-size: 18px;
+}
+.employee_tab .tab_form .form-control {
+    font-size: 16px;
+    padding: 20px 30px;
+}
+.employee_tab .tab_form span{
+	top:8px;
+	left:8px;
+}
+.form_div .form_box{
+	height:45px;
+}
+.employee_tab .tab_form .checkmark{
+	width:20px;
+	height:20px;
+}
+.employee_tab .tab_form .custcon .checkmark:after{
+	width:6px;
+	height:10px;
+}
+.employee_tab .tab_form .custcon {
+	font-size:16px;
+	padding-left:35px;
+}
+.employee_tab .tab_form button {
+    font-size: 16px;
+    padding: 10px 12px;
+	margin-right:20px;
+}
+}
+@media only screen and (max-width: 1400px){
+.header .header_text a {
+    font-size: 28px;
+}
+.header .contact_btn button {
+    font-size: 14px;
+}
+.main_sidebar {
+    width: 350px;
+    margin-top: 105px;
+}
+.content_wrapper {
+    margin-left: 350px;
+    margin-top: -75px;
+}
+.header .nav-tabs > li, .column_wrappper .add_column .col-text, .sidebar .column_box .column_text .fa{
+    font-size: 16px;
+}
+.header .nav-tabs > li{
+	padding:0 10px;
+}
+.column_wrappper .add_column .icon {
+    width: 18px;
+    height: 18px;
+}
+.column_wrappper .add_column .icon .fa {
+    font-size: 16px;
+}
+.sidebar .column_box .column_text span, .orange, .pink, .sidebar .column_box .column_icon .fa  {
+    font-size: 14px;
+}
+.content_wrapper .time_box ul li {
+    font-size: 11px;
+}
+.pointer, .pointer1 {
+	width:180px;
+    height: 24px;
+	margin-right:15px;
+}
+.pointer:before, .pointer1:before {
+    right: -7px;
+    border-left: 7px solid #8acc6c;
+    border-top: 9px solid transparent;
+    border-bottom: 14px solid transparent;
+}
+.pointer:after, .pointer1:after {
+    border-top: 3px solid transparent;
+}
+.pointer1:before, .grey:before {
+    border-left: 7px solid #d7d8db;
+}
+.tabicon_box {
+    margin-top: 10px;
+}
+.tabicon_box .border {
+    height: 6px;
+	width:125px;
+}
+.tabicon_box ul li .fa{
+	font-size:16px;
+}
+.employee_tab .nav-tabs > li{
+	font-size:11px;
+	margin-bottom:-2px;
+}
+.employee_tab .nav-tabs {
+    margin-bottom: 0px;
+}
+.employee_tab .nav-tabs > li .fa {
+    font-size: 14px;
+    line-height: 42px;
+}
+.employee_tab .nav-tabs > li a{
+	padding:15px 0;
+}
+.employee_tab .tab_form .form-control {
+    font-size: 14px;
+    padding: 18px 30px;
+}
+.employee_tab .tab_form span {
+    font-size: 15px;
+}
+.form_div .form_box {
+    height: 40px;
+}
+.time_box .time-col {
+    height: 40px;
+}
+.time_box .account_wrapper .icon {
+    width: 30px;
+    height: 30px;
+}
+.time_box .account_wrapper span {
+    font-size: 12px;
+}
+.time_box .account_wrapper .fa {
+    font-size: 16px;
+}
+.time_box .acnt_box .lightbox {
+    width: 100px;
+}
+.time_box .acnt_box .darkbox{
+	width:135px;
+}
+.employee_tab .tab_form .checkmark {
+    width: 18px;
+    height: 18px;
+}
+.employee_tab .tab_form .custcon .checkmark:after{
+	left: 6px;
+    top: 3px;
+}
+.employee_tab .tab_form .custcon {
+    font-size: 15px;
+    padding-left: 25px;
+	margin:30px 0;
+}
+.employee_tab .tab_form button {
+    font-size: 14px;
+}
+}
+@media only screen and (max-width: 1024px){
+.main_sidebar {
+    width: 300px;
+}
+.content_wrapper {
+    margin-left: 300px;
+}
+.header .nav-tabs > li {
+	font-size:14px;
+}
+.header .nav-tabs{
+	margin-left:285px;
+}
+.content_wrapper .time_box, .tabicons {
+    padding: 10px;
+}
+.content_wrapper .time_box ul li {
+    font-size: 8px;
+    padding: 8px;
+}
+.time_box .time-col {
+    height: 35px;
+}
+.time_box .account_wrapper .icon {
+    width: 25px;
+    height: 25px;
+}
+.time_box .account_wrapper .fa {
+    font-size: 14px;
+}
+.time_box .account_wrapper span {
+    font-size: 11px;
+	line-height:24px;
+	padding-left:5px;
+}
+.time_box .account_box {
+    margin-left: 35px;
+}
+.time_box .acnt_box .lightbox {
+    width: 80px;
+}
+.time_box .acnt_box .darkbox {
+    width: 90px;
+}
+.pointer, .pointer1 {
+    width: 140px;
+    height: 20px;
+    margin-right: 10px;
+}
+.pointer::before, .pointer1::before {
+    right: -11px;
+    border-left: 12px solid #8acc6c;
+    border-top: 8px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+.pointer1::before, .grey::before {
+    border-left:12px solid #d7d8db;
+}
+.pointer::after, .pointer1::after {
+    border-top: 0px solid transparent;
+}
+.tabicon_box .border {
+    width: 90px;
+	margin-right:25px;
+}
+.pointer span, .pointer1 span{
+	width:65px;
+}
+.employee_tab{
+	padding:5px;
+}
+.employee_tab .nav-tabs > li .fa{
+	margin-right:10px;
+}
+.employee_tab .tab_form .form-control {
+    font-size: 12px;
+    padding: 15px 25px;
+}
+.employee_tab .tab_form span {
+    font-size: 13px;
+}
+.form_div .form_box {
+    height: 35px;
+}
+.employee_tab .tab_form .custcon {
+    font-size: 14px;
+}
+.employee_tab .tab_form .checkmark {
+    width: 15px;
+    height: 15px;
+}
+.employee_tab .tab_form .custcon .checkmark::after {
+	width: 5px;
+	height: 8px;
+    left: 5px;
+    top: 3px;
+}
+.employee_tab .tab_form button {
+    font-size: 12px;
+	margin-right: 15px;
+}
+.red{
+	font-size:16px;
+}
+.employee_tab .nav-tabs{
+	border-bottom:0px;
+}
+}
+@media only screen and (max-width: 1023px){
+.header .header_text a {
+    font-size: 24px;
+}
+.header .contact_btn button {
+    font-size: 12px;
+}
+.header .contact_btn{
+	padding-bottom:15px;
+}
+.main_sidebar {
+    width: 250px;
+}	
+.content_wrapper {
+    margin-left: 250px;
+}
+.header .nav-tabs > li{
+	font-size:12px;
+	padding:0 5px;
+}
+.header .nav-tabs > li .fa{
+	line-height:36px;
+}
+.sidebar .column_box .column_text span, .orange, .pink, .sidebar .column_box .column_icon .fa {
+    font-size: 12px;
+}
+.tabicon_box .border {
+    margin-right: 10px;
+}
+.tabicon_box ul li{
+	padding:0 5px;
+}
+.employee_tab .nav-tabs > li a {
+	font-size:10px;
+    padding: 10px 0;
+}
+.employee_tab .tab_form .custcon {
+    font-size: 12px;
+	margin:20px 0;
+}
+.employee_tab .tab_form button {
+    font-size: 9px;
+    margin-right: 0px;
+}
+}
+@media only screen and (max-width: 767px){
+.header .header_text a {
+    font-size: 16px;
+}
+.header .header_text {
+    padding: 10px 10px 0px 10px;
+}
+.header .contact_btn button {
+    font-size: 11px;
+	padding:5px;
+}	
+.main_sidebar {
+    width: 150px;
+	margin-top:100px;
+}
+.content_wrapper {
+    margin-left: 150px;
+}
+.main_sidebar ul.side-menu > li{
+	padding:0 10px;
+}
+.column_wrappper .add_column .icon {
+    width: 15px;
+    height: 15px;
+}
+.column_wrappper .add_column .col-text{
+    font-size: 13px;
+}
+.column_wrappper .add_column .col-text {
+	font-size:12px;
+    padding-left: 0px;
+}
+.column_wrappper .add_column {
+    margin: 10px 0;
+}
+.column_wrappper .add_column .icon .fa {
+    font-size: 14px;
+}
+.sidebar .column_wrappper li {
+    padding: 5px;
+}
+.sidebar .column_box .column_text .fa {
+	font-size:8px;
+}
+.sidebar .column_box .column_text span, .orange, .pink, .sidebar .column_box .column_icon .fa {
+    font-size: 8px;
+}
+.header .nav-tabs {
+    margin-left: 135px;
+}
+.header .nav > li > a{
+	padding:5px;
+}
+.header .nav-tabs > li{
+	font-size:11px;
+	padding:0 2px;
+}
+.header .nav-tabs > li .fa {
+    line-height: 25px;
+}
+.content_wrapper .tab-content {
+    margin: 0 15px;
+}
+.time_box .acnt_box .darkbox {
+    width: 100px;
+}
+.tabicon_box .border {
+    width: 50px;
+}
+.tabicon_box {
+    margin-top: 0;
+}
+.tabicon_box ul li .fa {
+    font-size: 11px;
+}
+.employee_tab .tab_form .custcon {
+    font-size: 11px;
+    margin: 15px 0;
+}
+.employee_tab .tab_form button{
+	width:100%;
+	margin-bottom:10px;
+}
+}
